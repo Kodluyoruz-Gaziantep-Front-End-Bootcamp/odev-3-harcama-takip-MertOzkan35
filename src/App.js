@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  return <div className="App">asdasdads</div>;
+  return <div className="w-[200rem] h-[200rem] bg-black">xfgd</div>;
 }
 
 export default App;
