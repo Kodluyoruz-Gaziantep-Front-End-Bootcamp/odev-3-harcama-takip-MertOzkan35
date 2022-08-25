@@ -1,15 +1,15 @@
 # Week - NULL
-```Hafta veya Ödev Sayısı (NULL değiştir)```
+```Hafta-3```
 
-# Homework 
-```Ödev```
+
 
 
 ## Homework Description
 
-```Ödev Açıklaması ```
+```React ,Tailwind ve React Hooks kullanarak geşitirdiğim harcama takip uygulaması ```
+     https://quiet-blancmange-0fd370.netlify.app/
 
 
 ## Author
 
-```Ödevi yapan```
+```Mert Özkan```
