@@ -3,7 +3,6 @@ import NewTransaction from "./NewTransaction";
 import Balance from "./Balance";
 import TransactionHistory from "./TransactionHistory";
 import Header from "./Header";
-import Pie from "./Pie";
 
 const UserContext = createContext();
 
@@ -43,10 +42,10 @@ function Context() {
       },
     ]);
   };
-  console.log(value);
+
   function Del(item) {
     let x = value.filter((el) => el.id !== item.id);
-    console.log(x);
+
     setvalue(x);
   }
   return (
@@ -65,9 +64,6 @@ function Context() {
           <div className="w-2/5 h-full border p-6 border-black bg-[#ebeef0]">
             <TransactionHistory Del={Del} />
           </div>
-        </div>
-        <div className="mt-10  pb-10">
-          <Pie />
         </div>
       </div>
     </UserContext.Provider>
